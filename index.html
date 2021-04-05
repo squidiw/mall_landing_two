@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
       
-    <header style="background-color:rgb(69, 195, 215);">
+    <header>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-6 col-xl-6 text-center">
@@ -33,60 +33,160 @@
                             </nav>                    
                         </div>
                     </div>
-                    <div class="col-12 bg-danger">
-                        Lorem ipsum dolor sit amet consectetur.
+                    <div class="col-12 ">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur.
+                        </p>
                     </div>
+                    
+                    
 
-                    <div class="col-12 bg-success">
-                        <table class="table">
+                    <div class="col-12 ">
+                        <table class="table table-borderless">
                             <thead>
                                 <tr>
-                                    <th>trading hours</th>
+                                    <th> <h3 class="text-center underlined">trading hours</h3></th>
+                                    <th></th>
                                 </tr>
+                                
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td scope="row">Monday - Saturday</td>
-                                    <td> 10am - 8pm</td>
-                                    <td> </td>
+                                    <td scope="row"><h4>monday - sunday</h4></td>
+                                    <td> <h5 class="semibold">10am -8pm</h5></td>
+                                    
                                 </tr>
                                 <tr>
-                                    <td scope="row">Sunday</td>
-                                    <td>10am - 8pm</td>
+                                    <td scope="row"><h4>sunday</h4></td>
+                                    <td><h5 class="semibold">10am -8pm</h5></td>
                                 </tr>
                                 <tr>
-                                    <td scope="row">public holidays</td>
-                                    <td>10am - 8pm</td>
+                                    <td scope="row"><h4>public holidays</h4></td>
+                                    <td><h5 class="semibold">10am -8pm</h5></td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 mt-4">
                         <div class="row">
                             <div class="col-5">
-                                <span class="social-icons text-center">
+                                <span class="social-icons d-flex justify-content-around text-center">
                                     <a href="">
-                                        <i class="fab fa-facebook" style="font-size: 40px;"></i>
+                                        <i class="fab fa-facebook" style="font-size: 40px; color: white;"></i>
                                     </a>
                                     <a href="">
-                                        <i class="fab fa-instagram" style="font-size: 40px;"></i>
+                                        <i class="fab fa-twitter" style="font-size: 40px; color: white;"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fab fa-instagram" style="font-size: 40px; color: white;"></i>
                                     </a>
                                 </span>
                             </div>
                             <div class="col-7">
-                                find us on <br>
-                        <span class="bold">social media</span>
+                                <h2 class="semibold">find us on <br>
+                        <span class="bold">social media</span></h1>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="d-none d-md-block col-md-6 col-lg-6 col-xl-6">
-                    <img src="imgs/isaiah-mcclean-DrVJk1EaPSc-unsplash.png" alt="" class="img-fluid img">
+                <div class="d-none d-md-block col-md-6 col-lg-6 col-xl-6" id="right-img">
                 </div>
             </div>
         </div>
     </header>
+
+    <main>
+        <div class="cards-1 section-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Featured stores </h2> 
+                    </div>
+                      <div class="col-md-4 col-lg-4 col-xl-4">
+                          <div class="card card-blog">
+                              <div class="card-image">
+                                  <a href="#"> <img class="img" src="imgs/shop1.jpg">
+                                      <div class="card-caption"> Shoes boutique </div>
+                                  </a>
+                                  <div class="ripple-cont"></div>
+                              </div>
+                              <div class="table">
+                                  <h6 class="category text-info">Shoes</h6>
+                                  <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit et placerat finibus. Praesent justo metus, pharetra vel nibh sit amet, tincidunt posuere nulla. Vivamus odio antement, feugiat eget nisi sit amet, scelerisque dignissim velit antement. </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-lg-4 col-xl-4">
+                        <div class="card card-blog">
+                            <div class="card-image">
+                                <a href="#"> <img class="img" src="imgs/shop3.jpg">
+                                    <div class="card-caption"> Dresser-inn </div>
+                                </a>
+                                <div class="ripple-cont"></div>
+                            </div>
+                            <div class="table">
+                                <h6 class="category text-info">Clothes</h6>
+                                <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit et placerat finibus. Praesent justo metus, pharetra vel nibh sit amet, tincidunt posuere nulla. Vivamus odio antement, feugiat eget nisi sit amet, scelerisque dignissim velit antement. </p>
+                            </div>
+                        </div>
+                        
+                      </div>
+                      <div class="col-md-4 col-lg-4 col-xl-4">
+                        <div class="card card-blog">
+                            <div class="card-image">
+                                <a href="#"> <img class="img" src="imgs/shop5.jpg">
+                                    <div class="card-caption"> Eater-eats </div>
+                                </a>
+                                <div class="ripple-cont"></div>
+                            </div>
+                            <div class="table">
+                                <h6 class="category text-info">Food</h6>
+                                <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit et placerat finibus. Praesent justo metus, pharetra vel nibh sit amet, tincidunt posuere nulla. Vivamus odio antement, feugiat eget nisi sit amet, scelerisque dignissim velit antement. </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+          </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-8 col-xl-8">
+                    <ul class="nav text-capitalize">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">store listings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> events &amp; promotions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contact</a>
+                        </li>
+                        
+                    </ul>
+                    <p class="pl-5">
+                        &copy; copyright 2021 mall. rights reserved.
+                    </p>
+                    
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <a href="" class="navbar-brand img-fluid">
+                        <img src="imgs/logo.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
