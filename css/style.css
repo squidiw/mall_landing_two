@@ -25,13 +25,18 @@ header{
     background-color: rgb(69, 195, 215);
 }
 
+.header-text{
+    color: #fff;
+}
+
 .nav{
     text-transform: uppercase;
 }
 
 .nav .nav-link{
-    color: #3b3838;
+    color: #fff;
 }
+
 
 #right-img{
     background-image: url(../imgs/header-img.png);
